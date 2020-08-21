@@ -1,0 +1,32 @@
+# cmus config
+
+# set theme
+colorscheme dracula
+
+# set music dir
+add ~/Music
+
+# set decade
+fset 1970s=date>=1970&date<1979
+fset 1980s=date>=1980&date<1989
+fset 1990s=date>=1990&date<2000
+fset 2000s=date>=2000&date<2009
+fset 2010s=date>=2010&date<2019
+fset 2020s=date>=2020&date<2029
+
+# set genre
+fset Pop=genre="Pop"
+fset Rap=genre="Rap"
+fset Hip-Hop=genre="Hip-Hop"
+fset Rock=genre="Rock"
+fset Alt=genre="Alternative"
+fset Country=genre="Country"
+fset RnB=genre="RnB"
+
+fset unheard=play_count=0
+fset missing-tag=!stream&(artist=""|album=""|title=""|tracknumber=-1|date=-1)
+fset mp3=filename="*.mp3"
+fset ogg=filename="*.ogg"
+fset ogg-or-mp3=ogg|mp3
+
+# vim: ft=config 
