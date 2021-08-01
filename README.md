@@ -5,7 +5,7 @@ Small, fast and powerful console music player for Unix-like operating systems
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/cmus/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/cmus/raw/main/install.sh)"
 ```
 
 Manual install:
